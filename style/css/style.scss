@@ -46,9 +46,9 @@ body{
     a{
         font-weight: bold;
         color: white;
-    }
-    a:hover{
-        color: #D470FF;
+        &:hover{
+            color: #D470FF;
+        }
     }
 }
 .footerOne{
