@@ -49,8 +49,7 @@ body {
   font-weight: bold;
   color: white;
 }
-
-a:hover {
+.navigation__link a:hover {
   color: #D470FF;
 }
 
@@ -95,6 +94,9 @@ a:hover {
 .flexBoxExp .workExp {
   padding-left: 70px;
 }
+.flexBoxExp .padding {
+  padding-bottom: 15px;
+}
 
 .flexBoxSoftware {
   display: flex;
@@ -110,8 +112,7 @@ a:hover {
   padding-top: 20px;
   border-top: white solid;
 }
-
-p {
+.basicInfo p {
   text-align: center;
 }
 
@@ -135,6 +136,10 @@ p {
 .banner h2 {
   color: #D470FF;
 }
+.banner .description {
+  width: 600px;
+  text-align: center;
+}
 
 .gallery {
   display: flex;
@@ -155,11 +160,6 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: white solid;
-}
-
-.description {
-  width: 600px;
-  text-align: center;
 }
 
 .galleryOne {

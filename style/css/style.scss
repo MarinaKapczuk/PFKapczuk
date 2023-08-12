@@ -47,9 +47,9 @@ body{
         font-weight: bold;
         color: white;
     }
-}
-a:hover{
-    color: #D470FF;
+    a:hover{
+        color: #D470FF;
+    }
 }
 .footerOne{
     padding-top: 20px;
@@ -88,6 +88,9 @@ a:hover{
     .workExp{
         padding-left: 70px;
     }
+    .padding{
+        padding-bottom: 15px;
+    }
 }
 .flexBoxSoftware{
     display: flex;
@@ -101,9 +104,9 @@ a:hover{
 .basicInfo{
     padding-top: 20px;
     border-top: white solid;
-}
-p{
-    text-align: center;
+    p{
+        text-align: center;
+    }
 }
 .logosAndLinks{
     display: flex;
@@ -123,6 +126,10 @@ p{
     h2{
         color: #D470FF;
     }
+    .description{
+        width: 600px;
+        text-align: center;
+    }
 }
 .gallery{
     display: flex;
@@ -141,10 +148,6 @@ p{
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: white solid;
-}
-.description{
-    width: 600px;
-    text-align: center;
 }
 .galleryOne{
     display: flex;
