@@ -42,7 +42,7 @@ $font: "Nunito";
 }
 body{
     background: $primary-color;
-    font: $secondary-color;
+    color: $secondary-color;
     font-family: $font;
     font-weight: 200;
 }
@@ -52,7 +52,6 @@ body{
     padding-bottom: 30px;
     a{
         font-weight: bold;
-        color: white;
         &:hover{
             color: #D470FF;
         }
@@ -61,7 +60,6 @@ body{
 .footerOne{
     padding-top: 20px;
     text-align: center;
-    color: white;
 }
 .title{
     text-align: center;
@@ -75,7 +73,6 @@ body{
     border-top: white solid;
     border-bottom: white solid;
     .aboutMe{
-        color: white;
         text-align: center;
         width: 309px;
         font-weight: 400;
@@ -85,7 +82,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    color: white;
     padding-top: 30px;
     border-top: white solid;
     a{
