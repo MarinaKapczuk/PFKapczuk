@@ -1,3 +1,8 @@
+/*vars*/
+$primary-color: #000000;
+$secondary-color: white;
+$font: "Nunito";
+/*endVars*/
 @font-face{
     font-family: "Nunito";
     src: url(../assets/fonts/NunitoSans_7pt-ExtraLight.ttf);
@@ -36,7 +41,9 @@
     }
 }
 body{
-    font-family: "Nunito";
+    background: $primary-color;
+    font: $secondary-color;
+    font-family: $font;
     font-weight: 200;
 }
 .navigation__link{
