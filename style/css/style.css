@@ -104,4 +104,24 @@ a:hover {
   font-weight: bold;
   border-top: white solid;
   border-bottom: white solid;
+}
+
+.basicInfo {
+  padding-top: 20px;
+  border-top: white solid;
+}
+
+p {
+  text-align: center;
+}
+
+.logosAndLinks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  border-bottom: white solid;
+}
+.logosAndLinks a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
