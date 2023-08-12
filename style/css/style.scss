@@ -2,6 +2,8 @@
 $primary-color: #000000;
 $secondary-color: white;
 $font: "Nunito";
+$border-top: white solid;
+$border-bottom: white solid;
 /*endVars*/
 @font-face{
     font-family: "Nunito";
@@ -45,6 +47,15 @@ body{
     color: $secondary-color;
     font-family: $font;
     font-weight: 200;
+    .footer{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+        color: #D470FF;
+        padding-top: 30px;
+    }
 }
 .navigation__link{
     display: flex;
@@ -57,21 +68,12 @@ body{
         }
     }
 }
-.footerOne{
-    padding-top: 20px;
-    text-align: center;
-}
-.title{
-    text-align: center;
-    color: #D470FF;
-    padding-top: 30px;
-}
 .flexBoxIndex{
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0;
-    border-top: white solid;
-    border-bottom: white solid;
+    border-top: $border-top;
+    border-bottom: $border-bottom;
     .aboutMe{
         text-align: center;
         width: 309px;
@@ -83,7 +85,7 @@ body{
     justify-content: space-evenly;
     text-align: center;
     padding-top: 30px;
-    border-top: white solid;
+    border-top: $border-top;
     a{
         color: #D470FF;
         text-decoration: none;
@@ -101,12 +103,12 @@ body{
     padding-top: 30px;
     text-align: center;
     font-weight: bold;
-    border-top: white solid;
-    border-bottom: white solid;
+    border-top: $border-top;
+    border-bottom: $border-bottom;
 }
 .basicInfo{
     padding-top: 20px;
-    border-top: white solid;
+    border-top: $border-top;
     p{
         text-align: center;
     }
@@ -116,7 +118,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding-bottom: 20px;
-    border-bottom: white solid;
+    border-bottom: $border-bottom;
     a{
         text-decoration: none;
     }
@@ -150,7 +152,7 @@ body{
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: white solid;
+    border-bottom: $border-bottom;
 }
 .galleryOne{
     display: flex;
@@ -170,5 +172,5 @@ body{
     justify-content: space-evenly;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: white solid;
+    border-bottom: $border-bottom;
 }
