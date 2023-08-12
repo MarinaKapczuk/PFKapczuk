@@ -115,3 +115,54 @@ p{
         text-decoration: none;
     }
 }
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    h2{
+        color: #D470FF;
+    }
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.youtubeThumbnail{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.facebookProfile{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: white solid;
+}
+.description{
+    width: 600px;
+    text-align: center;
+}
+.galleryOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.galleryTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.galleryThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: white solid;
+}
