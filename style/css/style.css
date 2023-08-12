@@ -23,10 +23,6 @@
     flex-direction: column;
     align-items: center;
   }
-  .flexBoxSoftware{
-    flex-direction: column;
-    align-items: center;
-  }
 }
 @media (max-width: 412px) {
   .navigation__link {
@@ -35,10 +31,6 @@
     align-items: center;
   }
   .flexBoxIndex {
-    flex-direction: column;
-    align-items: center;
-  }
-  .flexBoxSoftware{
     flex-direction: column;
     align-items: center;
   }
