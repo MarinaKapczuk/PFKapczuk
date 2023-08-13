@@ -1,5 +1,31 @@
-/*vars*/
-/*endVars*/
+.banner, .logosAndLinks, .galleryTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation__link, .flexBoxIndex, .flexBoxSoftware {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flexBoxExp {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.gallery, .youtubeThumbnail, .facebookProfile {
+  display: flex;
+  justify-content: center;
+}
+
+.galleryOne, .galleryThree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 @font-face {
   font-family: "Nunito";
   src: url(../assets/fonts/NunitoSans_7pt-ExtraLight.ttf);
@@ -15,6 +41,13 @@
   src: url(../assets/fonts/NunitoSans_7pt-SemiBold.ttf);
   font-weight: 600;
 }
+body {
+  font-family: "nunito";
+  font-weight: 200;
+}
+
+/*vars*/
+/*endVars*/
 @media (max-width: 320px) {
   .navigation__link {
     display: flex;
@@ -53,8 +86,6 @@
 body {
   background: #000000;
   color: white;
-  font-family: "Nunito";
-  font-weight: 200;
 }
 body .footer {
   padding-top: 30px;
@@ -66,8 +97,6 @@ body .title {
 }
 
 .navigation__link {
-  display: flex;
-  justify-content: space-evenly;
   padding-bottom: 30px;
 }
 .navigation__link a {
@@ -78,8 +107,6 @@ body .title {
 }
 
 .flexBoxIndex {
-  display: flex;
-  justify-content: space-evenly;
   padding: 30px 0;
   border-top: white solid;
   border-bottom: white solid;
@@ -91,9 +118,6 @@ body .title {
 }
 
 .flexBoxExp {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
   padding-top: 30px;
   border-top: white solid;
 }
@@ -109,8 +133,6 @@ body .title {
 }
 
 .flexBoxSoftware {
-  display: flex;
-  justify-content: space-evenly;
   padding-top: 30px;
   text-align: center;
   font-weight: bold;
@@ -127,9 +149,6 @@ body .title {
 }
 
 .logosAndLinks {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   padding-bottom: 30px;
   border-bottom: white solid;
 }
@@ -138,9 +157,6 @@ body .title {
 }
 
 .banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-bottom: 30px;
 }
 .banner .bannerImg {
@@ -155,39 +171,21 @@ body .title {
 }
 
 .gallery {
-  display: flex;
-  justify-content: center;
   padding-bottom: 30px;
 }
 
-.youtubeThumbnail {
-  display: flex;
-  justify-content: center;
-}
-
 .facebookProfile {
-  display: flex;
-  justify-content: center;
   border-bottom: white solid;
 }
 
 .galleryOne {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   padding-bottom: 30px;
 }
 
 .galleryTwo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 30px;
 }
 
 .galleryThree {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   border-bottom: white solid;
 }/*# sourceMappingURL=style.css.map */

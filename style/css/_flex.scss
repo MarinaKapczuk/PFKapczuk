@@ -1,0 +1,23 @@
+.banner, .logosAndLinks, .galleryTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navigation__link, .flexBoxIndex, .flexBoxSoftware{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexBoxExp{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.gallery, .youtubeThumbnail, .facebookProfile{
+    display: flex;
+    justify-content: center;
+}
+.galleryOne, .galleryThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

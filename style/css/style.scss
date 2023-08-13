@@ -1,25 +1,11 @@
+@import "flex";
+@import "fonts";
 /*vars*/
 $primary-color: #000000;
 $secondary-color: white;
-$font: "Nunito";
 $border-top: white solid;
 $border-bottom: white solid;
 /*endVars*/
-@font-face{
-    font-family: "Nunito";
-    src: url(../assets/fonts/NunitoSans_7pt-ExtraLight.ttf);
-    font-weight: 200;
-}
-@font-face{
-    font-family: "Nunito";
-    src: url(../assets/fonts/NunitoSans_7pt-Regular.ttf);
-    font-weight: 400;
-}
-@font-face{
-    font-family: "Nunito";
-    src: url(../assets/fonts/NunitoSans_7pt-SemiBold.ttf);
-    font-weight: 600;
-}
 @media (max-width: 320px){
     .navigation__link{
         display: flex;
@@ -57,8 +43,6 @@ $border-bottom: white solid;
 body{
     background: $primary-color;
     color: $secondary-color;
-    font-family: $font;
-    font-weight: 200;
     .footer{
         padding-top: 30px;
         text-align: center;
@@ -70,8 +54,6 @@ body{
     }
 }
 .navigation__link{
-    display: flex;
-    justify-content: space-evenly;
     padding-bottom: 30px;
     a{
         font-weight: bold;
@@ -81,8 +63,6 @@ body{
     }
 }
 .flexBoxIndex{
-    display: flex;
-    justify-content: space-evenly;
     padding: 30px 0;
     border-top: $border-top;
     border-bottom: $border-bottom;
@@ -93,9 +73,6 @@ body{
     }
 }
 .flexBoxExp{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
     padding-top: 30px;
     border-top: $border-top;
     a{
@@ -110,8 +87,6 @@ body{
     }
 }
 .flexBoxSoftware{
-    display: flex;
-    justify-content: space-evenly;
     padding-top: 30px;
     text-align: center;
     font-weight: bold;
@@ -126,9 +101,6 @@ body{
     }
 }
 .logosAndLinks{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     padding-bottom: 30px;
     border-bottom: $border-bottom;
     a{
@@ -136,9 +108,6 @@ body{
     }
 }
 .banner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-bottom: 30px;
     .bannerImg{
         padding-bottom: 30px;
@@ -152,37 +121,22 @@ body{
     }
 }
 .gallery{
-    display: flex;
-    justify-content: center;
     padding-bottom: 30px;
 }
 .youtubeThumbnail{
     @extend .padding;
-    display: flex;
-    justify-content: center;
 }
 .facebookProfile{
     @extend .padding;
-    display: flex;
-    justify-content: center;
     border-bottom: $border-bottom;
 }
 .galleryOne{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     padding-bottom: 30px;
 }
 .galleryTwo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 30px;
 }
 .galleryThree{
     @extend .padding;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     border-bottom: $border-bottom;
 }
