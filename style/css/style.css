@@ -159,7 +159,7 @@ body .title {
 }
 
 .banner {
-  padding-bottom: 30px;
+  border-top: white solid;
 }
 .banner .bannerImg {
   padding-bottom: 30px;
