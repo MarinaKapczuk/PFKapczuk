@@ -45,6 +45,11 @@
     align-items: center;
   }
 }
+.padding, .galleryThree, .facebookProfile, .youtubeThumbnail, body .title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 body {
   background: #000000;
   color: white;
@@ -58,8 +63,6 @@ body .footer {
 body .title {
   text-align: center;
   color: #D470FF;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .navigation__link {
@@ -101,7 +104,7 @@ body .title {
 .flexBoxExp .workExp {
   padding-left: 70px;
 }
-.flexBoxExp .padding {
+.flexBoxExp .paddingExp {
   padding-bottom: 15px;
 }
 
@@ -160,15 +163,11 @@ body .title {
 .youtubeThumbnail {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .facebookProfile {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
   border-bottom: white solid;
 }
 
@@ -190,7 +189,5 @@ body .title {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 30px;
-  padding-bottom: 30px;
   border-bottom: white solid;
 }/*# sourceMappingURL=style.css.map */

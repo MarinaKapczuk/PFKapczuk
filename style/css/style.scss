@@ -50,6 +50,10 @@ $border-bottom: white solid;
         align-items: center;
     }
 }
+.padding{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 body{
     background: $primary-color;
     color: $secondary-color;
@@ -60,10 +64,9 @@ body{
         text-align: center;
     }
     .title{
+        @extend .padding;
         text-align: center;
         color: #D470FF;
-        padding-top: 30px;
-        padding-bottom: 30px;
     }
 }
 .navigation__link{
@@ -102,7 +105,7 @@ body{
     .workExp{
         padding-left: 70px;
     }
-    .padding{
+    .paddingExp{
         padding-bottom: 15px;
     }
 }
@@ -154,16 +157,14 @@ body{
     padding-bottom: 30px;
 }
 .youtubeThumbnail{
+    @extend .padding;
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 .facebookProfile{
+    @extend .padding;
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
     border-bottom: $border-bottom;
 }
 .galleryOne{
@@ -179,10 +180,9 @@ body{
     padding-top: 30px;
 }
 .galleryThree{
+    @extend .padding;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 30px;
-    padding-bottom: 30px;
     border-bottom: $border-bottom;
 }
