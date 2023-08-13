@@ -1,0 +1,27 @@
+@keyframes fadeTitle{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.title{
+    animation-duration: 5s;
+    animation-name: fadeTitle;
+    animation-iteration-count: 1;
+}
+@keyframes flexBoxIndex{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.flexBoxIndex{
+    animation-duration: 5s;
+    animation-name: flexBoxIndex;
+    animation-iteration-count: 1;
+}
+@keyframes fadeFooter{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.basicInfo, .logosAndLinks{
+    animation-duration: 5s;
+    animation-name: fadeFooter;
+    animation-iteration-count: 1;
+}
