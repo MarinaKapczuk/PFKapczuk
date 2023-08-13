@@ -92,8 +92,10 @@ body .footer {
   text-align: center;
 }
 body .title {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(212, 112, 255) 50%, rgb(0, 0, 0) 100%);
   text-align: center;
-  color: #D470FF;
+  color: black;
 }
 
 .navigation__link {
