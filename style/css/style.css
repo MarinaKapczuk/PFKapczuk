@@ -46,6 +46,19 @@ body {
   font-weight: 200;
 }
 
+.flexBoxIndex, .flexBoxSoftware {
+  border-top: white solid;
+  border-bottom: white solid;
+}
+
+.flexBoxExp, .basicInfo, .banner {
+  border-top: white solid;
+}
+
+.logosAndLinks, .facebookProfile, .galleryThree {
+  border-bottom: white solid;
+}
+
 /*vars*/
 /*endVars*/
 @media (max-width: 320px) {
@@ -78,7 +91,7 @@ body {
     align-items: center;
   }
 }
-.padding, .galleryThree, .facebookProfile, .youtubeThumbnail, .basicInfo, .flexBoxIndex, body .title {
+.padding, .galleryThree, .facebookProfile, .youtubeThumbnail, .logosAndLinks, .basicInfo, .flexBoxSoftware, .flexBoxExp, .flexBoxIndex, body .title {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -108,20 +121,12 @@ body .title {
   color: #D470FF;
 }
 
-.flexBoxIndex {
-  border-top: white solid;
-  border-bottom: white solid;
-}
 .flexBoxIndex .aboutMe {
   text-align: center;
   width: 309px;
   font-weight: 400;
 }
 
-.flexBoxExp {
-  padding-top: 30px;
-  border-top: white solid;
-}
 .flexBoxExp a {
   color: #D470FF;
   text-decoration: none;
@@ -134,24 +139,14 @@ body .title {
 }
 
 .flexBoxSoftware {
-  padding-top: 30px;
   text-align: center;
   font-weight: bold;
-  border-top: white solid;
-  border-bottom: white solid;
 }
 
-.basicInfo {
-  border-top: white solid;
-}
 .basicInfo p {
   text-align: center;
 }
 
-.logosAndLinks {
-  padding-bottom: 30px;
-  border-bottom: white solid;
-}
 .logosAndLinks a {
   text-decoration: none;
 }
@@ -165,9 +160,6 @@ body .title {
   width: 100px;
 }
 
-.banner {
-  border-top: white solid;
-}
 .banner .bannerImg {
   padding-bottom: 30px;
 }
@@ -183,18 +175,10 @@ body .title {
   padding-bottom: 30px;
 }
 
-.facebookProfile {
-  border-bottom: white solid;
-}
-
 .galleryOne {
   padding-bottom: 30px;
 }
 
 .galleryTwo {
   padding-top: 30px;
-}
-
-.galleryThree {
-  border-bottom: white solid;
 }/*# sourceMappingURL=style.css.map */

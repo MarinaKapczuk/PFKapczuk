@@ -72,7 +72,7 @@ body{
     }
 }
 .flexBoxExp{
-    @extend .padding
+    @extend .padding;
     a{
         color: #D470FF;
         text-decoration: none;
@@ -85,7 +85,7 @@ body{
     }
 }
 .flexBoxSoftware{
-    @extend .padding
+    @extend .padding;
     text-align: center;
     font-weight: bold;
 }
@@ -96,7 +96,7 @@ body{
     }
 }
 .logosAndLinks{
-    @extend .padding
+    @extend .padding;
     a{
         text-decoration: none;
     }
