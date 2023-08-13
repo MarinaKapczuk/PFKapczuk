@@ -141,9 +141,10 @@ body {
   }
 }
 .basicInfo, .logosAndLinks {
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-name: fadeFooter;
   animation-iteration-count: 1;
+  animation-timing-function: ease-in;
 }
 
 /*vars*/
