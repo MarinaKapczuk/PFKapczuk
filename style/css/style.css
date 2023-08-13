@@ -59,6 +59,51 @@ body {
   border-bottom: white solid;
 }
 
+.img {
+  transition: all 1s;
+}
+
+.img:hover {
+  height: 400px;
+  width: 400px;
+}
+
+.mediaLogo {
+  transition: all 1s;
+}
+
+.mediaLogo:hover {
+  height: 100px;
+  width: 100px;
+}
+
+.imgDemon {
+  transition: all 1s;
+}
+
+.imgDemon:hover {
+  height: 906px;
+  width: 563px;
+}
+
+.imgVvNoir {
+  transition: all 1s;
+}
+
+.imgVvNoir:hover {
+  height: 1080px;
+  width: 752px;
+}
+
+.imgVvElder {
+  transition: all 1s;
+}
+
+.imgVvElder:hover {
+  height: 509px;
+  width: 372px;
+}
+
 /*vars*/
 /*endVars*/
 @media (max-width: 320px) {
@@ -91,7 +136,7 @@ body {
     align-items: center;
   }
 }
-.padding, .galleryThree, .facebookProfile, .youtubeThumbnail, .logosAndLinks, .basicInfo, .flexBoxSoftware, .flexBoxExp, .flexBoxIndex, body .title {
+.padding, .galleryThree, .facebookProfile, .youtubeThumbnail, .flexBoxSoftware, .flexBoxExp, .flexBoxIndex, body .title {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -143,21 +188,18 @@ body .title {
   font-weight: bold;
 }
 
+.basicInfo {
+  padding-top: 30px;
+}
 .basicInfo p {
   text-align: center;
 }
 
+.logosAndLinks {
+  padding-bottom: 30px;
+}
 .logosAndLinks a {
   text-decoration: none;
-}
-
-.mediaLogo {
-  transition: all 1s;
-}
-
-.mediaLogo:hover {
-  height: 100px;
-  width: 100px;
 }
 
 .banner .bannerImg {

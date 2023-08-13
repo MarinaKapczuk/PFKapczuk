@@ -1,6 +1,7 @@
 @import "flex";
 @import "fonts";
 @import "borders";
+@import "transition";
 /*vars*/
 $primary-color: #000000;
 $secondary-color: white;
@@ -90,23 +91,16 @@ body{
     font-weight: bold;
 }
 .basicInfo{
-    @extend .padding;
+    padding-top: 30px;
     p{
         text-align: center;
     }
 }
 .logosAndLinks{
-    @extend .padding;
+    padding-bottom: 30px;
     a{
         text-decoration: none;
     }
-}
-.mediaLogo{
-    transition: all 1s;
-}
-.mediaLogo:hover{
-    height: 100px;
-    width: 100px;
 }
 .banner{
     .bannerImg{
