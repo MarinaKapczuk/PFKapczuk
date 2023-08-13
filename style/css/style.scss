@@ -65,7 +65,7 @@ body{
     }
 }
 .flexBoxIndex{
-    padding-top: 30px;
+    @extend .padding;
     border-top: $border-top;
     border-bottom: $border-bottom;
     .aboutMe{
@@ -75,7 +75,7 @@ body{
     }
 }
 .flexBoxExp{
-    padding-top: 30px;
+    @extend .padding
     border-top: $border-top;
     a{
         color: #D470FF;
@@ -89,21 +89,21 @@ body{
     }
 }
 .flexBoxSoftware{
-    padding-top: 30px;
+    @extend .padding
     text-align: center;
     font-weight: bold;
     border-top: $border-top;
     border-bottom: $border-bottom;
 }
 .basicInfo{
-    padding-top: 30px;
+    @extend .padding;
     border-top: $border-top;
     p{
         text-align: center;
     }
 }
 .logosAndLinks{
-    padding-bottom: 30px;
+    @extend .padding
     border-bottom: $border-bottom;
     a{
         text-decoration: none;

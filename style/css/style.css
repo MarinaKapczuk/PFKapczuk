@@ -78,7 +78,7 @@ body {
     align-items: center;
   }
 }
-.padding, .galleryThree, .facebookProfile, .youtubeThumbnail, body .title {
+.padding, .galleryThree, .facebookProfile, .youtubeThumbnail, .basicInfo, .flexBoxIndex, body .title {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -109,7 +109,6 @@ body .title {
 }
 
 .flexBoxIndex {
-  padding-top: 30px;
   border-top: white solid;
   border-bottom: white solid;
 }
@@ -143,7 +142,6 @@ body .title {
 }
 
 .basicInfo {
-  padding-top: 30px;
   border-top: white solid;
 }
 .basicInfo p {
