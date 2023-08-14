@@ -6,36 +6,6 @@
 $primary-color: #000000;
 $secondary-color: white;
 /*endVars*/
-@media (max-width: 320px){
-    .navigation__link{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .flexBoxIndex{
-        flex-direction: column;
-        align-items: center;
-    }
-    .flexBoxSoftware{
-        flex-direction: column;
-        align-items: center;
-    }
-}
-@media (max-width: 412px){
-    .navigation__link{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .flexBoxIndex{
-        flex-direction: column;
-        align-items: center;
-    }
-    .flexBoxSoftware{
-        flex-direction: column;
-        align-items: center;
-    }
-}
 .padding{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -140,4 +110,38 @@ body{
 }
 .galleryThree{
     @extend .padding;
+}
+@media (max-width: 320px){
+    .navigation__link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flexBoxIndex, .flexBoxSoftware{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 412px){
+    .navigation__link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flexBoxIndex, .flexBoxSoftware{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 320px){
+    .galleryOne, .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 412px){
+    .galleryOne, .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
 }

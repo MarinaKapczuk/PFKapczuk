@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
 }
-.navigation__link, .flexBoxIndex, .flexBoxSoftware{
+.navigation__link, .flexBoxIndex, .flexBoxSoftware, .galleryOne, .galleryThree{
     display: flex;
     justify-content: space-evenly;
 }
@@ -15,9 +15,4 @@
 .gallery, .youtubeThumbnail, .facebookProfile{
     display: flex;
     justify-content: center;
-}
-.galleryOne, .galleryThree{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
