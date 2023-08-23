@@ -3,6 +3,7 @@
 @import "borders";
 @import "transition";
 @import "padding";
+@import "animation";
 /*vars*/
 $primary-color: #000000;
 $secondary-color: white;
@@ -21,15 +22,6 @@ body{
         text-align: center;
         color: black;
     }
-}
-@keyframes fadeTitle{
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-.title{
-    animation-duration: 5s;
-    animation-name: fadeTitle;
-    animation-iteration-count: 1;
 }
 .navigation__link{
     padding-bottom: 30px;
