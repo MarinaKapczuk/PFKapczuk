@@ -2,14 +2,11 @@
 @import "fonts";
 @import "borders";
 @import "transition";
+@import "padding";
 /*vars*/
 $primary-color: #000000;
 $secondary-color: white;
 /*endVars*/
-.padding{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 body{
     background: $primary-color;
     color: $secondary-color;
